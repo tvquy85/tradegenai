@@ -25,7 +25,7 @@ python -m http.server 8000
 
 ## Deploy
 
-1. Push to the `main` branch of `tquy85/tquy85.github.io`.
+1. Push to the `main` branch of `tvquy85/tradegenai`.
 2. Repo **Settings → Pages** → Source: *Deploy from a branch* → `main` / `(root)`.
 3. Custom domain: `tradegenai.com` → after DNS resolves, tick **Enforce HTTPS**.
 
@@ -43,7 +43,7 @@ Remove the old `A @ → 8.218.17.227`, then add:
 | AAAA | @ | 2606:50c0:8001::153 |
 | AAAA | @ | 2606:50c0:8002::153 |
 | AAAA | @ | 2606:50c0:8003::153 |
-| CNAME | www | tquy85.github.io |
+| CNAME | www | tvquy85.github.io |
 
 Do **not** change the MX or SPF (`TXT`) records — they serve `founder@tradegenai.com`.
 
