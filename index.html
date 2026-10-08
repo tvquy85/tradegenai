@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TradeGenAI — AI decision support for quantitative finance</title>
+  <meta name="description" content="TradeGenAI builds a data analytics and decision-support platform for quantitative finance, combining rigorous quant tooling with large language model reasoning.">
+  <link rel="canonical" href="https://tradegenai.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tradegenai.com/">
+  <meta property="og:title" content="TradeGenAI — AI decision support for quantitative finance">
+  <meta property="og:description" content="Data analytics and decision support for quant teams, combining rigorous quant tooling with LLM reasoning.">
+  <meta name="theme-color" content="#0b1424">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TradeGenAI",
+    "url": "https://tradegenai.com",
+    "logo": "https://tradegenai.com/favicon.svg",
+    "email": "founder@tradegenai.com",
+    "founder": { "@type": "Person", "name": "Tran Quy" }
+  }
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="TradeGenAI home">
+        <img src="favicon.svg" alt="" width="28" height="28">
+        <span>TradeGen<b>AI</b></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#platform">Platform</a>
+        <a href="#how">How it works</a>
+        <a href="#who">Who it's for</a>
+        <a href="#team">Team</a>
+      </nav>
+      <a class="btn btn-small" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> Now in early access</p>
+          <h1>AI-powered analytics &amp; decision support for quantitative finance</h1>
+          <p class="lede">TradeGenAI unifies market data, quantitative research and risk analytics in one platform &mdash; with a language-model reasoning layer that explains every signal, so your team can move from data to a defensible decision faster.</p>
+          <div class="hero-cta">
+            <a class="btn" href="mailto:founder@tradegenai.com?subject=TradeGenAI%20early%20access">Request early access</a>
+            <a class="btn btn-ghost" href="#platform">Explore the platform</a>
+          </div>
+        </div>
+
+        <figure class="hero-panel" aria-label="Illustrative product view">
+          <div class="panel-head">
+            <span class="panel-dots"><i></i><i></i><i></i></span>
+            <span class="mono">signal-review / momentum_xs</span>
+          </div>
+          <svg class="chart" viewBox="0 0 400 150" role="img" aria-label="Illustrative equity curve">
+            <defs>
+              <linearGradient id="fill" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0" class="stop-accent" stop-opacity=".35"/>
+                <stop offset="1" class="stop-accent" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <g class="grid">
+              <line x1="0" y1="37" x2="400" y2="37"/><line x1="0" y1="75" x2="400" y2="75"/><line x1="0" y1="112" x2="400" y2="112"/>
+            </g>
+            <path d="M0,120 L30,114 L60,118 L90,102 L120,106 L150,92 L180,96 L210,78 L240,84 L270,66 L300,72 L330,52 L360,58 L400,38 L400,150 L0,150Z" fill="url(#fill)"/>
+            <path d="M0,120 L30,114 L60,118 L90,102 L120,106 L150,92 L180,96 L210,78 L240,84 L270,66 L300,72 L330,52 L360,58 L400,38" class="line-accent"/>
+            <path d="M0,124 L50,122 L100,118 L150,116 L200,110 L250,108 L300,102 L350,98 L400,92" class="line-bench"/>
+          </svg>
+          <div class="copilot">
+            <p class="copilot-label mono">AI analyst</p>
+            <p>Most of the out-performance comes from the last two regimes. Before sizing up, test sensitivity to transaction costs and check whether the factor exposure overlaps with your existing book.</p>
+          </div>
+          <figcaption class="mono">Illustrative interface &middot; not real performance</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="problem">
+      <div class="container">
+        <p class="kicker">The problem</p>
+        <h2>Quant research is slowed down by everything around the model</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Fragmented data</h3>
+            <p>Prices, fundamentals, alternative data and research notes live in different systems, formats and frequencies. Cleaning and aligning them eats most of a researcher's week.</p>
+          </article>
+          <article class="card">
+            <h3>Slow iteration</h3>
+            <p>Every new idea means custom scripts, ad-hoc backtests and manual sanity checks &mdash; so promising hypotheses wait in a queue instead of being tested.</p>
+          </article>
+          <article class="card">
+            <h3>Hard-to-explain decisions</h3>
+            <p>Signals and portfolio changes are difficult to justify to PMs, risk and investors when the reasoning is buried in notebooks and spreadsheets.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="platform">
+      <div class="container">
+        <p class="kicker">The platform</p>
+        <h2>One workspace from raw data to decision</h2>
+        <div class="cards two">
+          <article class="card feature">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+            </div>
+            <h3>Data ingestion &amp; normalization</h3>
+            <p>Connect market, fundamental and alternative data sources into a single point-in-time store with consistent identifiers, calendars and corporate-action handling.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+            </div>
+            <h3>Signal research &amp; backtesting</h3>
+            <p>Define factors and strategies, run walk-forward backtests with realistic costs, and compare variants side by side with reproducible configurations.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3>Risk &amp; portfolio analytics</h3>
+            <p>Track exposures, drawdowns, correlations and scenario stress tests across strategies, so risk is part of the research loop instead of an afterthought.</p>
+          </article>
+          <article class="card feature highlight">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3a7 7 0 0 0-4 12.7V19h8v-3.3A7 7 0 0 0 12 3z"/><path d="M9 22h6"/></svg>
+            </div>
+            <h3>AI decision copilot</h3>
+            <p>A large-language-model reasoning layer, built on Anthropic's Claude, that explains signals in plain language, summarizes filings and research, proposes testable hypotheses and drafts decision memos &mdash; always grounded in your data and reviewed by a human.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="container">
+        <p class="kicker">How it works</p>
+        <h2>Quant rigor first, AI reasoning on top</h2>
+        <ol class="flow">
+          <li>
+            <span class="step mono">01</span>
+            <h3>Data</h3>
+            <p>Ingest and clean multi-source data into a point-in-time research store.</p>
+          </li>
+          <li>
+            <span class="step mono">02</span>
+            <h3>Analytics engine</h3>
+            <p>Compute factors, backtests and risk metrics with deterministic, auditable code.</p>
+          </li>
+          <li>
+            <span class="step mono">03</span>
+            <h3>AI reasoning layer</h3>
+            <p>The language model interprets results, flags caveats and connects them to news and research.</p>
+          </li>
+          <li>
+            <span class="step mono">04</span>
+            <h3>Human decision</h3>
+            <p>Your team reviews a clear, evidence-backed memo and makes the final call.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section alt" id="who">
+      <div class="container">
+        <p class="kicker">Who it's for</p>
+        <h2>Built for small teams doing serious quantitative work</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Quant research teams</h3>
+            <p>Shorten the loop from idea to validated backtest and spend time on research, not plumbing.</p>
+          </article>
+          <article class="card">
+            <h3>Emerging funds &amp; prop desks</h3>
+            <p>Institutional-grade analytics and risk tooling without building an in-house platform team.</p>
+          </article>
+          <article class="card">
+            <h3>Advanced individual investors</h3>
+            <p>Systematic, data-driven tools and transparent explanations instead of black-box tips.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <div class="container team">
+        <div>
+          <p class="kicker">Team</p>
+          <h2>Founder-led and building in the open</h2>
+          <p class="lede">TradeGenAI is an early-stage startup. We are working closely with a small group of design partners to shape the platform around real research workflows.</p>
+        </div>
+        <article class="card person">
+          <div class="avatar" aria-hidden="true">TQ</div>
+          <div>
+            <h3>Tran Quy</h3>
+            <p class="role">Founder</p>
+            <p><a href="mailto:founder@tradegenai.com">founder@tradegenai.com</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cta-band" id="contact">
+      <div class="container cta-inner">
+        <h2>Interested in early access or a design partnership?</h2>
+        <p>Tell us about your data, your strategies and where your research process slows down.</p>
+        <a class="btn btn-light" href="mailto:founder@tradegenai.com?subject=TradeGenAI%20early%20access">founder@tradegenai.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 TradeGenAI. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:founder@tradegenai.com">Contact</a>
+      </nav>
+      <p class="disclaimer">TradeGenAI provides software tools for research and analysis. Nothing on this website constitutes investment advice or a solicitation to buy or sell any security. Past performance is not indicative of future results.</p>
+    </div>
+  </footer>
+</body>
+</html>
